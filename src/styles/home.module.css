@@ -1,0 +1,93 @@
+.home {
+  display: flex;
+  width: 1100px;
+  padding: 5px 40px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding: 46px;
+  border-radius: 250px;
+  background: var(--palette-home-circle);
+  box-shadow: 0 5px 20px 0 rgba(81, 12, 120, 0.4);
+}
+
+.iconContainer {
+  display: flex;
+  align-items: flex-start;
+  padding: 5px 2px;
+  gap: 28px;
+}
+
+.textContainer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 10px;
+  align-items: start;
+  gap: 5px;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  height: 50px;
+}
+
+.scrollAnimation {
+  display: inline-block;
+  animation: scrollAnimation 10s linear infinite;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.scrollText {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.scrollTextColor1 {
+  color: var(--palette-home-text_scroll_1);
+}
+
+.scrollTextColor2 {
+  color: var(--palette-home-text_scroll_2);
+}
+
+@keyframes scrollAnimation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-60%);
+  }
+}
+
+.description {
+  color: var(--palette-principal-text);
+  font-size: 1.375rem;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+

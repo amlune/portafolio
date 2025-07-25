@@ -1,0 +1,70 @@
+:root {
+  --palette-principal-background: #fae8eb;
+  --palette-principal-text: #191919;
+
+  --palette-header-footer-footer: #d988a5;
+  --palette-header-footer-header: #de97b7;
+  --palette-header-footer-header_shadow: #d0a6b8;
+  --palette-header-footer-navbar: #fcdbe8;
+  --palette-header-footer-text_active: #8e3c58;
+  --palette-header-footer-text_default: #25091b;
+  --palette-header-footer-text_hover: #500627;
+
+  --palette-home-circle: #e69fbe;
+  --palette-home-text_scroll_1: #674b97;
+  --palette-home-text_scroll_2: #932851;
+
+  --palette-experience-experience_line: #df8cbc;
+
+  --palette-projects-project_child: #e7bbce;
+  --palette-projects-project_child_button: rgba(207, 64, 126, 0.3);
+  --palette-projects-project_child_button_stroke: #ac4370;
+  --palette-projects-project_child_effects: #d0a6b8;
+
+  --palette-aboutme-shadow_picture_aboutme: rgba(192, 76, 120, 0.3);
+
+  --palette-contactme-contactme: #d9aed0;
+  --palette-contactme-contactme_button: rgba(198, 94, 148, 0.8);
+  --palette-contactme-contactme_button_text: #ffffff;
+}
+
+body.dark-theme {
+  --palette-principal-background: #1c1234;
+  --palette-principal-text: #f9f9f9;
+
+  --palette-header-footer-footer: #4a2a54;
+  --palette-header-footer-header: #7e5a9b;
+  --palette-header-footer-header_shadow: #5b4377;
+  --palette-header-footer-navbar: #6f5c85;
+  --palette-header-footer-text_active: #5514a1;
+  --palette-header-footer-text_default: #ffffff;
+  --palette-header-footer-text_hover: #4f2793;
+
+  --palette-home-circle: #cdb3e2;
+  --palette-home-text_scroll_1: #bc8be0;
+  --palette-home-text_scroll_2: #cc86c6;
+
+  --palette-experience-experience_line: #bfa0f2;
+
+  --palette-projects-project_child: #7e5a97;
+  --palette-projects-project_child_button: rgba(201, 145, 198, 0.3);
+  --palette-projects-project_child_button_stroke: #3b2344;
+  --palette-projects-project_child_effects: #5b4377;
+
+  --palette-aboutme-shadow_picture_aboutme: rgba(103, 75, 151, 0.3);
+
+  --palette-contactme-contactme: #7e5a9b;
+  --palette-contactme-contactme_button: #3b2344;
+  --palette-contactme-contactme_button_text: #ffffff;
+}
+
+body {
+  background-color: var(--palette-principal-background);
+  color: var(--palette-principal-text);
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
