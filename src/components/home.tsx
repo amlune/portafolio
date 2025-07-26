@@ -6,7 +6,7 @@ function HomeC() {
   return (
     <div className={styles.home}>
       <div className={styles.logoContainer}>
-        <Image src={"/logo/anam1.png"} alt="Logo Ana" width={407} height={407} />
+        <Image src={"/logo/anam1.png"} alt="Logo Ana" width={407} height={407} className={styles.img}/>
       </div>
       <div className={styles.textContainer}>
         <div className={styles.scroll}>

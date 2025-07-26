@@ -1,0 +1,77 @@
+.contactMeSection {
+  width: 1100px;
+  padding: 18px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  background: var(--palette-contactme-contactme);
+  color: var(--palette-principal-text);
+}
+
+.title {
+  color: var(--palette-principal-text);
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+
+.contactMeContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 10px 10px 5px;
+  align-self: stretch;
+}
+
+.contactText {
+  display: flex;
+  padding: 10px 27px 10px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.contactDescription {
+  font-size: 1.275rem;
+  font-weight: 600;
+}
+
+.contactItem {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactIcon {
+}
+
+.contactInfo {
+  font-size: 1.25rem;
+  font-weight: 400;
+  align-self: center;
+}
+
+.contactButton {
+  display: flex;
+  width: 237px;
+  height: 53px;
+  padding: 5px 75px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  background: var(
+    --palette-contact-me-contactme_button,
+    rgba(198, 94, 148, 0.8)
+  );
+  box-shadow: 1px 5px 4px 0
+    var(--palette-projects-project_child_effects, #d0a6b8);
+  color: var(--palette-contact-me-contactme_button_text, #fff);
+  text-align: center;
+  font-size: 1.425rem;
+  font-weight: 600;
+}

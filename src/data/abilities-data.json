@@ -1,0 +1,64 @@
+{
+    "abilities": [
+        {
+            "name": "HTML",
+            "imageSrc": "/skills/html.png"
+        },
+        {
+            "name": "CSS",
+            "imageSrc": "/skills/css.png"
+        },
+        {
+            "name": "JavaScript",
+            "imageSrc": "/skills/javascript.png"
+        },
+        {
+            "name": "TypeScript",
+            "imageSrc": "/skills/typescript.png"
+        },
+        {
+            "name": "Python",
+            "imageSrc": "/skills/python.png"
+        },
+        {
+            "name": "Git",
+            "imageSrc": "/skills/git.png"
+        },
+        {
+            "name": "GitHub",
+            "imageSrc": "/skills/github.png"
+        },
+        {
+            "name": "React",
+            "imageSrc": "/skills/react.png"
+        },
+        {
+            "name": "React Native",
+            "imageSrc": "/skills/reactnative.png"
+        },
+        {
+            "name": "Next.js",
+            "imageSrc": "/skills/nextjs.png"
+        },
+        {
+            "name": "Node.js",
+            "imageSrc": "/skills/nodejs.png"
+        },
+        {
+            "name": "Figma",
+            "imageSrc": "/skills/figma.png"
+        },
+        {
+            "name": "Azure",
+            "imageSrc": "/skills/azure.png"
+        },
+        {
+            "name": "MySQL",
+            "imageSrc": "/skills/mysql.png"
+        },
+        {
+            "name": "MariaDB",
+            "imageSrc": "/skills/mariadb.png"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "info":[
+        {
+            "iconSrc": "/icons/mail.svg",
+            "altText": "Email",
+            "info": "ana.amaya.dev@gmail.com"
+        },
+        {
+            "iconSrc": "/icons/phone.svg",
+            "altText": "Télefono",
+            "info": "+57 322 757 21 08"
+        },
+        {
+            "iconSrc": "/icons/linkedin.svg",
+            "altText": "LinkedIn",
+            "info": "linkedin.com/in/ana-amaya"
+        }
+    ]
+}
