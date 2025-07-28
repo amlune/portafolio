@@ -1,8 +1,8 @@
-<h2>Bienvenid@ a mi portafolioooo</h2>
+<h1>Bienvenid@ a mi portafolioooo</h1>
 
 <br clear="both">
 
-- Este portafolio es más que un proyecto: es una parte de mí. Está inspirado en la estética de Magic Shop, con toques místicos, suaves transiciones y una atmósfera que mezcla tecnología con calidez. Cada color, cada ícono y cada animación fue pensado para transmitir claridad, accesibilidad y un poquito de magia.
+Este portafolio es más que un proyecto: es una parte de mí. Está inspirado en la estética de Magic Shop, con toques místicos, suaves transiciones y una atmósfera que mezcla tecnología con calidez. Cada color, cada ícono y cada animación fue pensado para transmitir claridad, accesibilidad y un poquito de magia.
 
 Más que resaltar mi stack —que incluye herramientas como Next.js y diseño responsivo—, quería que el diseño hablara por sí solo y reflejara quién soy, no solo lo que hago. Tiene modo claro y oscuro porque sé que los pequeños detalles hacen una gran diferencia.
 
