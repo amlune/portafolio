@@ -1,0 +1,22 @@
+{
+    "info":[
+        {
+            "iconType": "mail",
+            "altText": "Email",
+            "info": "ana.amaya.dev@gmail.com",
+            "url": "ana.amaya.dev@gmail.com"
+        },
+        {
+            "iconType": "phone",
+            "altText": "Télefono",
+            "info": "+57 322 757 21 08",
+            "url": "tel:+573227572108"
+        },
+        {
+            "iconType": "linkedin",
+            "altText": "LinkedIn",
+            "info": "linkedin.com/in/ana-amaya",
+            "url": "https://www.linkedin.com/in/anam-vamaya"
+        }
+    ]
+}

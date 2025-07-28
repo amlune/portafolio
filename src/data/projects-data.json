@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "title": "Jüna",
+            "languages": [
+                {"icon1":"/skills/nextjs.png"},
+                {"icon2":"/skills/typescript.png"},
+                {"icon3":"/skills/python.png"},
+                {"icon4":"/skills/figma.png"},
+                {"icon5":"/skills/azure.png"},
+                {"icon6":"/skills/git.png"},
+                {"icon7":"/skills/github.png"}
+            ],
+            "description": "Aplicación web desarrollada con el objetivo de detectar la violencia de las conversaciones de WhatsApp, a través de servicios de inteligencia artificial, aprovechando las capacidades de Azure OpenAI Service. La herramienta permite identificar y clasificar diferentes tipos de violencia en los mensajes, como insultos directos, amenazas o patrones de comunicación potencialmente dañinos.",
+            "url": "",
+            "repository": "",
+            "image": "/projects/psicoaxioma.jpg"
+        },
+        {
+            "title": "PsicoAxioma",
+            "languages": [
+                {"icon1":"/skills/typescript.png"},
+                {"icon2":"/skills/react.png"},
+                {"icon3":"/skills/css.png"},
+                {"icon4":"/skills/nodejs.png"},
+                {"icon5":"/skills/mariadb.png"},
+                {"icon6":"/skills/figma.png"},
+                {"icon7":"/skills/git.png"},
+                {"icon8":"/skills/github.png"}
+            ],
+            "description": "PsicoAxioma es una aplicación móvil desarrollada con React Native que integra una robusta infraestructura backend construida sobre Node.js. Su principal objetivo es proporcionar una herramienta de apoyo psicológico, aprovechando la vanguardia de la inteligencia artificial a través de la plataforma HUMEAI.",
+            "url": "",
+            "repository": "https://github.com/amlune/PsicoAxioma",
+            "image": "/projects/psicoaxioma.jpg"
+        }
+    ]
+}

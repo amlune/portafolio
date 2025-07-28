@@ -1,0 +1,114 @@
+.projectSection {
+  display: flex;
+  width: 1100px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 30px;
+  gap: 10px;
+}
+
+.titleSection {
+  color: var(--palette-principal-text);
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.projectCard {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 10px;
+  background: var(--palette-projects-project_child);
+  box-shadow: 2px 5px 5px 0 var(--palette-projects-project_child_effects);
+}
+
+.projectImage {
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projectImage:hover{
+  box-shadow: 0px 0px 3px 1px var(--palette-projects-project_child_button_stroke);
+  transform: rotate(0.5deg);
+}
+
+.projectDetails {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  flex: 1 0 0;
+}
+
+.projectTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--palette-principal-text);
+}
+
+.projectLanguagesContainer {
+  display: flex;
+  padding: 2px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.projectLanguagesIcon{
+  transition: transform 0.3s ease-in-out;
+}
+
+.projectLanguagesIcon:hover {
+  transform: scale(1.1);
+}
+
+.projectDescription {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--palette-principal-text);
+}
+
+.projectLinks {
+  display: flex;
+  padding: 5px 2px;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.projectLink {
+  display: flex;
+  width: 130px;
+  padding: 6px 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 2px dashed var(--palette-projects-project_child_button_stroke);
+  background: var(--palette-projects-project_child_button);
+  box-shadow: 1px 5px 4px 0 var(--palette-projects-project_child_effects);
+  color: var(--palette-principal-text);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.projectLink:hover {
+  background: var(--palette-projects-project_child_button_hover);
+  box-shadow: 1px 5px 4px 0 var(--palette-projects-project_child_button_hover_effects);
+  transform: scale(1.02);
+}

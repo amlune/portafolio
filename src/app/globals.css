@@ -1,0 +1,90 @@
+:root {
+  --palette-principal-background: #fae8eb;
+  --palette-principal-text: #191919;
+  --palette-principal-icons: #000;
+
+  --palette-header-footer-footer: #d988a5;
+  --palette-header-footer-header: #de97b7;
+  --palette-header-footer-header_shadow: #d0a6b8;
+  --palette-header-footer-navbar: #fcdbe8;
+  --palette-header-footer-text_default: #25091b;
+  --palette-header-footer-text_hover: #500627;
+  --palette-header-footer-text_active: #8e3c58;
+  --palette-header-footer-text_default_shadow: rgba(212, 87, 130, 0.25);
+  --palette-header-footer-text_hover_shadow: rgba(205, 30, 90, 0.37);
+  --palette-header-footer-text_active_shadow: rgba(147, 106, 120, 0.25);
+
+  --palette-home-circle: #e69fbe;
+  --palette-home-circle-shadow: rgba(81, 12, 120, 0.4);
+  --palette-home-text_scroll_1: #674b97;
+  --palette-home-text_scroll_2: #932851;
+  --palette-home-icons: #000;
+
+  --palette-experience-experience_line: #df8cbc;
+
+  --palette-projects-project_child: rgb(231, 187, 206);
+  --palette-projects-project_child_button: rgba(221, 74, 138, 0.40);
+  --palette-projects-project_child_button_stroke: #ac4370;
+  --palette-projects-project_child_effects: rgb(206, 152, 176);
+  --palette-projects-project_child_button_hover: rgba(239, 98, 159, 0.5);
+  --palette-projects-project_child_button_hover_effects: rgb(177, 111, 139);
+
+  --palette-aboutme-shadow_picture_aboutme: rgba(192, 76, 120, 0.3);
+
+  --palette-contactme-contactme: #d9aed0;
+  --palette-principal-contactme_effects: rgba(172, 67, 112, 0.25);
+  --palette-contactme-contactme_button: rgba(198, 94, 148, 0.8);
+  --palette-contactme-contactme_button_text: #ffffff;
+}
+
+html[data-theme='dark'] body {
+  --palette-principal-background: #1c1234;
+  --palette-principal-text: #f9f9f9;
+  --palette-principal-icons: #FFF;
+
+  --palette-header-footer-footer: #4a2a54;
+  --palette-header-footer-header: #7e5a9b;
+  --palette-header-footer-header_shadow: #5b4377;
+  --palette-header-footer-navbar: #6f5c85;
+  --palette-header-footer-text_default: #ffffff;
+  --palette-header-footer-text_hover: #4f2793;
+  --palette-header-footer-text_active: #5514a1;
+  --palette-header-footer-text_default_shadow: rgba(74, 58, 97, 0.50);
+  --palette-header-footer-text_hover_shadow: rgba(106, 20, 206, 0.35);
+  --palette-header-footer-text_active_shadow: rgba(62, 23, 76, 0.25);
+
+  --palette-home-circle: #cdb3e2;
+  --palette-home-circle-shadow: rgba(196, 157, 218, 0.25);
+  --palette-home-text_scroll_1: #AE6ADF;
+  --palette-home-text_scroll_2: #CB54C1;
+
+  --palette-experience-experience_line: #bfa0f2;
+
+  --palette-projects-project_child: #7e5a97;
+  --palette-projects-project_child_button: rgba(104, 17, 99, 0.3);
+  --palette-projects-project_child_button_stroke: rgb(59, 35, 68);
+  --palette-projects-project_child_effects: #5b4377;
+  --palette-projects-project_child_button_hover: rgba(147, 25, 141, 0.5);
+  --palette-projects-project_child_button_hover_effects: rgb(82, 54, 94);
+
+  --palette-aboutme-shadow_picture_aboutme: rgba(103, 75, 151, 0.3);
+
+  --palette-contactme-contactme: #7e5a9b;
+  --palette-principal-contactme_effects: rgba(49, 17, 98, 0.25);
+  --palette-contactme-contactme_button: #3b2344;
+  --palette-contactme-contactme_button_text: #ffffff;
+}
+
+body {
+  background-color: var(--palette-principal-background);
+  color: var(--palette-principal-text);
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html{
+  scroll-behavior: smooth;
+}

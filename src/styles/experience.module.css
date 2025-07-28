@@ -1,0 +1,72 @@
+.experienceSection {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 30px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 1100px;
+  gap: 10px;
+}
+
+.titleSection {
+  color: var(--palette-principal-text);
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+
+.experienceList {
+  display: flex;
+  padding: 10px 45px;
+  align-items: flex-start;
+  align-items: stretch;
+}
+
+.experienceItems {
+  position: relative;
+  border-left: 3px solid var(--palette-experience-experience_line);
+}
+
+.experienceItem {
+  margin-bottom: 1rem;
+  padding: 2px 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.timelineCircle {
+  position: absolute;
+  display: flex;
+  width: 1.125rem;
+  height: 1.125rem; 
+  background-color: var(--palette-experience-experience_line);
+  border-radius: 50%;
+  left: -0.65rem;
+  margin-top: 1.2rem;
+}
+
+.experienceTitle {
+  font-size: 2.188rem;
+  font-weight: 700;
+  color: var(--palette-principal-text);
+}
+
+.experienceCompany{
+  color: var(--palette-principal-text);
+  font-size: 1.563rem;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.experienceDate {
+  color: var(--palette-principal-text);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.experienceDescription {
+  color: var(--palette-principal-text);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
