@@ -2,11 +2,11 @@
   background-color: var(--palette-header-footer-footer);
   height: 60px;
   padding: 19px 20px;
-  width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .credits {
@@ -20,4 +20,11 @@
 .credits:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .credits {
+    font-size: 0.875rem;
+  }
+
 }

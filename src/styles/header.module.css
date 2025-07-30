@@ -10,7 +10,7 @@
   box-shadow: 4px 3px 5px 0 var(--palette-header-footer-header_shadow);
 }
 
-.logo{
+.logo {
   transition: transform 0.3s ease-out;
 }
 
@@ -26,13 +26,13 @@
 }
 
 .navList {
-  display: flex;
   list-style: none;
   padding: 5px 10px;
   margin: 0;
   gap: 25px;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 .navItem a {
@@ -71,4 +71,100 @@
 
 .icon:hover {
   transform: translateY(-2px);
+}
+
+.menuIcon {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap; /* added line */
+  border: 0;
+  display: none;
+}
+
+.hamburgerContainer {
+  display: none;
+}
+
+.hamburger {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+}
+
+.burger {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: var(--palette-principal-icons);
+  border-radius: 10px;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+}
+
+@media (max-width: 35rem) {
+  .header {
+    width: 90%;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+  }
+
+  .hamburgerContainer {
+    display: inline-block;
+    z-index: 10;
+  }
+
+  .navList {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--palette-header-footer-header);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px var(--palette-header-footer-header_shadow);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 5;
+  }
+
+  .navOpen {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navItem a {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .burgerOpen1 {
+    transform: rotate(45deg);
+  }
+
+  .burgerOpen2 {
+    opacity: 0;
+  }
+
+  .burgerOpen3 {
+    transform: rotate(-45deg);
+  }
 }

@@ -9,7 +9,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-    title: 'Ana MV Amaya - Portafolio',
+    title: 'Ana Amaya - Portafolio',
     description: 'Mi portafolio personal',
     icons: {
     icon: '/favicon.svg',

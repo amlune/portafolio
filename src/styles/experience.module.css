@@ -38,7 +38,7 @@
   position: absolute;
   display: flex;
   width: 1.125rem;
-  height: 1.125rem; 
+  height: 1.125rem;
   background-color: var(--palette-experience-experience_line);
   border-radius: 50%;
   left: -0.65rem;
@@ -51,7 +51,7 @@
   color: var(--palette-principal-text);
 }
 
-.experienceCompany{
+.experienceCompany {
   color: var(--palette-principal-text);
   font-size: 1.563rem;
   font-weight: 400;
@@ -69,4 +69,41 @@
   color: var(--palette-principal-text);
   font-size: 1.25rem;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .experienceSection {
+    padding: 5px;
+    width: 85%;
+  }
+
+  .titleSection {
+    font-size: 2.188rem;
+  }
+
+  .experienceList {
+    padding: 10px 15px;
+  }
+
+  .experienceItem {
+    margin-bottom: 0.5rem;
+    padding: 2px 0px;
+    gap: 2px;
+  }
+
+  .experienceTitle {
+    font-size: 1.563rem;
+  }
+
+  .experienceCompany {
+    font-size: 1.125rem;
+  }
+
+  .experienceDate {
+    font-size: 0.875rem;
+  }
+
+  .experienceDescription {
+    font-size: 1rem;
+  }
 }

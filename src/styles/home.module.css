@@ -60,13 +60,6 @@
   }
 }
 
-.iconContainer {
-  display: flex;
-  align-items: flex-start;
-  padding: 5px 2px;
-  gap: 28px;
-}
-
 .textContainer {
   overflow: hidden;
   display: flex;
@@ -123,6 +116,13 @@
   font-size: 1.375rem;
 }
 
+.iconContainer {
+  display: flex;
+  align-items: flex-start;
+  padding: 5px 2px;
+  gap: 28px;
+}
+
 .icon {
   width: 35px;
   height: 35px;
@@ -134,4 +134,41 @@
 
 .icon:hover {
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .homeSection {
+    width: 85%;
+    padding: 5px;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .logoContainer {
+    width: 330px;
+    height: 330px;
+  }
+
+  .logo {
+    width: 280px;
+    height: 280px;
+  }
+
+  .textContainer {
+    width: 100%;
+    display: flex;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .iconContainer {
+    gap: 15px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
 }

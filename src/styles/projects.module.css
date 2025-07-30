@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+  width: 100%;
 }
 
 .projectCard {
@@ -39,8 +40,9 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.projectImage:hover{
-  box-shadow: 0px 0px 3px 1px var(--palette-projects-project_child_button_stroke);
+.projectImage:hover {
+  box-shadow: 0px 0px 3px 1px
+    var(--palette-projects-project_child_button_stroke);
   transform: rotate(0.5deg);
 }
 
@@ -67,7 +69,7 @@
   flex-direction: row;
 }
 
-.projectLanguagesIcon{
+.projectLanguagesIcon {
   transition: transform 0.3s ease-in-out;
 }
 
@@ -109,6 +111,40 @@
 
 .projectLink:hover {
   background: var(--palette-projects-project_child_button_hover);
-  box-shadow: 1px 5px 4px 0 var(--palette-projects-project_child_button_hover_effects);
+  box-shadow: 1px 5px 4px 0
+    var(--palette-projects-project_child_button_hover_effects);
   transform: scale(1.02);
+}
+
+@media only screen and (max-width: 600px) {
+  .projectSection {
+    width: 85%;
+    padding: 5px;
+    gap: 10px;
+  }
+
+  .titleSection {
+    font-size: 2.188rem;
+  }
+
+  .projectCard {
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .projectImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .projectTitle {
+    font-size: 1.75rem;
+  }
+
+  .projectLanguagesIcon {
+    width: 25px;
+    height: 25px;
+  }
 }

@@ -102,3 +102,52 @@
   transform: scale(1.05) rotate(2deg);
   cursor: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .contactMeSection {
+    width: 85%;
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  .titleSection {
+    font-size: 2.188rem;
+  }
+
+  .contactMeContent {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px 10px 5px;
+  }
+
+  .contactTextContainer {
+    width: 100%;
+    padding: 10px 5px 10px 10px;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .contactDescription {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
+  .contactItem {
+    gap: 3px;
+  }
+
+  .contactIcon {
+    width: 23px;
+    height: 23px;
+  }
+
+  .contactInfo {
+    font-size: 0.875rem;
+  }
+
+  .contactImage {
+    width: 100%;
+    height: 295px;
+  }
+}
