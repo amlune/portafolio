@@ -1,22 +1,54 @@
 'use client';
 
 import React from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import styles from '#/header.module.css';
 import { useDarkMode } from '@/hooks/useDarkMode';
+import NavBarHamburger from './navBarHamburguer';
 
 function Header() {
   const [theme, toggleTheme] = useDarkMode();
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
+
+  const toggleHamburger = () => {
+    setHamburgerOpen(prev => !prev);
+  };
+
+  const closeMenu = () => {
+    setHamburgerOpen(false);
+  };
+
+  // Cerrar menú al hacer click fuera
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (headerRef.current && !headerRef.current.contains(event.target as Node)) {
+        setHamburgerOpen(false);
+      }
+    };
+
+    // Solo agregar el listener si el menú está abierto
+    if (hamburgerOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    // Cleanup del event listener
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [hamburgerOpen]);
+
   return (
-    <header className={styles.header}>
+    <header ref={headerRef} className={styles.header}>
       <Image src={"/logo/logoanam.png"} alt="Logo Ana" width={60} height={60} className={styles.logo} />
       <nav className={styles.nav}>
-        <ul className={styles.navList}>
-          <li className={styles.navItem}><a href='#experience'>Experencias </a></li>
-          <li className={styles.navItem}><a href='#skills'>Habilidades</a></li>
-          <li className={styles.navItem}><a href='#projects'>Proyectos</a></li>
-          <li className={styles.navItem}><a href='#aboutme'>Sobre mí</a></li>
-          <li className={styles.navItem}><a href='#contactme'>Conctátame</a></li>
+        <ul className={`${styles.navList} ${hamburgerOpen ? styles.navOpen : ''}`} id="primary-navigation">
+          <li className={styles.navItem}><a href='#experience' onClick={closeMenu}>Experencias </a></li>
+          <li className={styles.navItem}><a href='#skills' onClick={closeMenu}>Habilidades</a></li>
+          <li className={styles.navItem}><a href='#projects' onClick={closeMenu}>Proyectos</a></li>
+          <li className={styles.navItem}><a href='#aboutme' onClick={closeMenu}>Sobre mí</a></li>
+          <li className={styles.navItem}><a href='#contactme' onClick={closeMenu}>Conctátame</a></li>
           <button onClick={toggleTheme} className={styles.buttonToggleTheme}>
             {theme === 'light' ?
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" className={styles.icon}>
@@ -28,6 +60,9 @@ function Header() {
               </svg>}
           </button>
         </ul>
+        <div className={styles.hamburgerContainer} onClick={toggleHamburger}>
+          <NavBarHamburger hamburgerOpen={hamburgerOpen} />
+        </div>
       </nav>
     </header>
   )

@@ -60,3 +60,35 @@
   filter: brightness(1.3);
   font-weight: 700;
 }
+
+@media only screen and (max-width: 600px) {
+  .abilitySection {
+    width: 85%;
+    padding: 5px;
+    gap: 10px;
+  }
+
+  .titleSection {
+    font-size: 2.188rem;
+  }
+
+  .abilityContainer {
+    flex-wrap: wrap;
+    padding: 5px 2px;
+    gap: 10px 5px;
+  }
+
+  .ability {
+    width: 86px;
+    padding: 5px;
+  }
+
+  .iconAbility {
+    width: 40px;
+    height: 40px;
+  }
+
+  .abilityName {
+    font-size: 0.875rem;
+  }
+}

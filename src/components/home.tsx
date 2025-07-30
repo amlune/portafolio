@@ -6,7 +6,7 @@ function HomeC() {
   return (
     <div className={styles.homeSection}>
       <div className={styles.logoContainer}>
-        <Image src={"/logo/anam1.png"} alt="Logo Ana" width={407} height={407} className={styles.img} />
+        <Image src={"/logo/anam1.png"} alt="Logo Ana" width={407} height={407} className={styles.logo} />
       </div>
       <div className={styles.textContainer}>
         <div className={styles.scroll}>
@@ -16,9 +16,7 @@ function HomeC() {
             <p className={`${styles.scrollText} ${styles.scrollTextColor1}`}>Software Developer ❀︎</p>
           </div>
         </div>
-
         <p className={styles.description}>Desarrolladora de software con experiencia en desarrollo full-stack, mobile y gestión de proyectos. He trabajado en lenguajes como Javascript, TypeScript y Python, usando frameworks como React.js, Next.js, React Native, Node.js para construir aplicaciones funcionales y escalables. También tengo experiencia en diseño y mantenimiento en bases de datos como MySQL y MariaDB.</p>
-
         <div className={styles.iconContainer}>
           <a href="https://www.linkedin.com/in/anam-vamaya" target="_blank" rel="noopener noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none" className={styles.icon}>

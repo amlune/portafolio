@@ -45,3 +45,32 @@
   box-shadow: 4px 8px 12px 2px var(--palette-aboutme-shadow_picture_aboutme);
   cursor: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .aboutMeSection {
+    width: 85%;
+    padding: 5px;
+    gap: 10px;
+    flex-direction: column-reverse;
+  }
+
+  .profileImage {
+    width: 270px;
+    height: 270px;
+  }
+
+  .textContainer {
+    gap: 8px;
+    padding: 0px;
+  }
+
+  .titleSection {
+    font-size: 2.188rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+  }
+}
