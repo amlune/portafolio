@@ -8,10 +8,10 @@ function AboutMe() {
       <div className={styles.textContainer}>
         <p className={styles.titleSection}>Sobre mí</p>
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare et libero ac scelerisque. Donec semper dui in vestibulum faucibus. Etiam tempor mattis lacus, eget vehicula enim viverra vitae. In non urna tellus. Quisque sapien ipsum, finibus ut scelerisque vitae, feugiat non lorem. Praesent maximus massa et mattis aliquet.
+          ¡Holaaa!, finalmente, me presento, soy Ana María Vargas Amaya, aunque me gusta más que digan Ana Amaya. Soy desarrolladora de software con un enfoque fullstack y mobile. Me fascina la técnología desde pequeña, como viste, mi stack es enfocado en el desarrollo web y móvil utilizando React, Nextjs, React Native y demás, pero siempre estoy abierta a aprender nuevas tecnologías y herramientas que me ayuden a mejorar mis habilidades y aportar más valor a los proyectos en los que participo.
         </p>
         <p className={styles.description}>
-          Aenean vel lorem nec dolor ullamcorper scelerisque. Nam ultrices nulla sit amet blandit porttitor. Duis mattis est neque, vel facilisis diam porta eu. Pellentesque id dolor vel sapien pellentesque tincidunt vel a neque. In vel lorem odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin id dui at mauris facilisis porttitor eget commodo libero. Donec quis feugiat orci.
+          Más allá del código, me encanta muchas más cosas, como la música, hace parte de mi vida, al menos una vez al día debo de escuchar música, uno de mis artistas favoritos es BTS, de hecho, en ellos me inspire para seguir mis sueños y nunca rendirme, y también en el diseño del sitio, otra artistas que me encanta es Karol G, ando encantada con su último álbum &quot;Tropicoqueta&quot;. También tengo hobbies como tejer, viajar, voluntariados, caminar, y como buena Tauro, me encata la buena comida y siempre voy a disfutar de un helado. 
         </p>
       </div>
       <Image
