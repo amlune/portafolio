@@ -11,10 +11,10 @@
                 {"icon6":"/skills/git.png"},
                 {"icon7":"/skills/github.png"}
             ],
-            "description": "Aplicación web desarrollada con el objetivo de detectar la violencia de las conversaciones de WhatsApp, a través de servicios de inteligencia artificial, aprovechando las capacidades de Azure OpenAI Service. La herramienta permite identificar y clasificar diferentes tipos de violencia en los mensajes, como insultos directos, amenazas o patrones de comunicación potencialmente dañinos.",
+            "description": "Aplicación web desarrollada con el objetivo de detectar la violencia de las conversaciones de WhatsApp, a través de servicios de inteligencia artificial, aprovechando las capacidades de Azure OpenAI Service. La herramienta permite identificar y clasificar diferentes tipos de violencia en los mensajes, como insultos directos, amenazas o patrones de comunicación potencialmente dañinos. El diseño es de la primera versión de la aplicación.",
             "url": "",
             "repository": "",
-            "image": "/projects/psicoaxioma.jpg"
+            "image": "/projects/juna.jpg"
         },
         {
             "title": "PsicoAxioma",
